@@ -44,7 +44,7 @@ jobs:
           directory: dist
           add_suffix: false
           inclusions: |-
-            .*\.(html|css|js)$
+            .*\.(html|css)$
 
       # 테스트 브랜치: 결과물을 아티팩트로 내려받아 로컬에서 확인
       - name: Upload test artifact
